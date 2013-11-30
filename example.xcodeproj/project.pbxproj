@@ -58,7 +58,7 @@
 		3B06FC75184A441500BC0FE3 /* exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exampleTests.m; sourceTree = "<group>"; };
 		3B06FC7F184A445500BC0FE3 /* SomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeClass.h; sourceTree = "<group>"; };
 		3B06FC80184A445500BC0FE3 /* SomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeClass.m; sourceTree = "<group>"; };
-		3B06FC82184A486E00BC0FE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		3B06FC84184A4ED600BC0FE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +88,7 @@
 		3B06FC3B184A441500BC0FE3 = {
 			isa = PBXGroup;
 			children = (
+				3B06FC84184A4ED600BC0FE3 /* README.md */,
 				3B06FC4D184A441500BC0FE3 /* example */,
 				3B06FC6F184A441500BC0FE3 /* exampleTests */,
 				3B06FC46184A441500BC0FE3 /* Frameworks */,
@@ -128,7 +129,6 @@
 				3B06FC4E184A441500BC0FE3 /* Supporting Files */,
 				3B06FC7F184A445500BC0FE3 /* SomeClass.h */,
 				3B06FC80184A445500BC0FE3 /* SomeClass.m */,
-				3B06FC82184A486E00BC0FE3 /* README.md */,
 			);
 			path = example;
 			sourceTree = "<group>";
@@ -482,6 +482,7 @@
 				3B06FC7B184A441500BC0FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B06FC7C184A441500BC0FE3 /* Build configuration list for PBXNativeTarget "exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				3B06FC7E184A441500BC0FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
