@@ -13,8 +13,8 @@ For example, given this code:
 
 You will see this output:
 
-1, 10
-2, 20
+    1, 10
+    2, 20
 
 What is happening here?
 
@@ -22,28 +22,29 @@ The actual code generated for each property includes setters and getters, by def
 
 Therefore the code generated in SomeClass.m is:
 
-// generated code
-@synthesize propOne = _propOne;
-@synthesize propTen = _propTen;
-
-- (NSInteger)propOne {
-    return _propOne;
-}
-
-- (void)setPropOne:(NSInteger)propOne {
-    _propOne = propOne;
-}
-// end generated code
-
-- (NSInteger)propTen {
-    return _propOne * 10;
-}
+    // generated code
+    @synthesize propOne = _propOne;
+    @synthesize propTen = _propTen;
+    
+    - (NSInteger)propOne {
+        return _propOne;
+    }
+    
+    - (void)setPropOne:(NSInteger)propOne {
+        _propOne = propOne;
+    }
+    // end generated code
+    
+    - (NSInteger)propTen {
+        return _propOne * 10;
+    }
 
 When self.propOne++ is executed, the following code runs:
 
-[self setPropOne:[self propOne]];
+    [self setPropOne:[self propOne]];
 
 When self.propTen is executed, the following code runs:
+
     return _propOne * 10;
 
 Using accessing the instance variables, i.e. variables prefixed by underscore, bypasses the setter or getter.
