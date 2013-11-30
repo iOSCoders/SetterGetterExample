@@ -1,5 +1,7 @@
 This example shows how setters and getters work in Objective C.
 
+The Apple reference is at: https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/EncapsulatingData/EncapsulatingData.html
+
 In SomeClass, the properties: propOne and propTen defined.
 
 The value of propTen is always propOne * 10.
