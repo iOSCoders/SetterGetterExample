@@ -43,7 +43,7 @@ Therefore the code generated in SomeClass.m is:
 
 When self.propOne++ is executed, the following code runs:
 
-    [self setPropOne:[self propOne]];
+    [self setPropOne:[self propOne] + 1];
 
 When self.propTen is executed, the following code runs:
 
